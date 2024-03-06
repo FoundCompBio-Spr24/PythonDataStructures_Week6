@@ -172,7 +172,11 @@ while num < 10:
     - `print(sys.argv[2])`
     - Which argument is printed when you run the line above? Does that make sense with the 0-based indexing in Python?
 - We can also loop through all command-line arguments:
+
+```
         for arg in sys.argv:
             print(arg)
+```
+
 - These abilities are very useful in a variety of contexts, but particularly when a set of filenames are provided as command-line arguments and you want to iteratively process each file.
 
